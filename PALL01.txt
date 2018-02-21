@@ -1,0 +1,9 @@
+t=int(input())
+for q in range(t):
+    n=list(input())
+    d=n[:]
+    n.reverse()
+    if(d==n):
+        print ("wins")
+    else:
+        print("losses") 
